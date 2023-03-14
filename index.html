@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -30,5 +30,31 @@
                 coordinates: [137.00395936927842, 50.54691620051855],
             });
         </script>
+
+
+
     </body>
+</html> -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Быстрый старт. Размещение интерактивной карты на странице</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [50.54691620051855,137.00395936927842],
+                zoom: 18
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div id="map" style="width: 100%; height: 100%"></div>
+</body>
 </html>

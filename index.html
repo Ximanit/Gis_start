@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <title>API карт 2ГИС</title>
@@ -8,15 +8,50 @@
 
             DG.then(function () {
                 map = DG.map('map', {
-                    center: [50.54691620051855,137.00395936927842],
+                    center: [50.54691620051855, 137.00395936927842],
                     zoom: 18
                 });
 
-                DG.marker([50.54691620051855,137.00395936927842]).addTo(map).bindPopup('КнАГУ');
+                DG.marker([50.54691620051855, 137.00395936927842]).addTo(map).bindPopup('КнАГУ');
             });
         </script>
     </head>
     <body>
         <div id="map" style="width:1920px; height:1080px"></div>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>2GIS Map API</title>
+        <meta name="description" content="Quckstart with 2GIS Map API" />
+        <style>
+            html,
+            body,
+            #container {
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script src="https://mapgl.2gis.com/api/js/v1"></script>
+        <script>
+            const map = new mapgl.Map('container', {
+                center: [137.00395936927842, 50.54691620051855],
+                zoom: 18,
+                key: 'bfd8bbca-8abf-11ea-b033-5fa57aae2de7',
+                style: 'c080bb6a-8134-4993-93a1-5b4d8c36a59b'
+            });
+            const marker = new mapgl.Marker(map, {
+                coordinates: [137.00395936927842, 50.54691620051855],
+            });
+        </script>
     </body>
 </html>

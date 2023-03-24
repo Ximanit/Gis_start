@@ -53,15 +53,24 @@
                 circle.destroy();
             }
 
-            circle = new mapgl.CircleMarker(map, {
+            circle = new mapgl.Circle(map, {
                 coordinates: center,
-                radius: 14,
-                color: '#0088ff',
-                strokeWidth: 4,
+                radius: 200,
+                color: '#ff000055',
+                strokeWidth: 2,
                 strokeColor: '#ffffff',
                 stroke2Width: 6,
                 stroke2Color: '#0088ff55',
             });
+            circle = new mapgl.CircleMarker(map, {
+                    coordinates: center,
+                    radius: 14,
+                    color: '#0088ff',
+                    strokeWidth: 4,
+                    strokeColor: '#ffffff',
+                    stroke2Width: 6,
+                    stroke2Color: '#0088ff55',
+                });
             map.setCenter(center);
             map.setZoom(16);
         }
@@ -78,13 +87,13 @@
                 navigator.geolocation.getCurrentPosition(success, error);
             }
         }
-        const circleMarker = new mapgl.Circle(map, {
-            coordinates: [137.00395936927842, 50.54691620051855],
-            radius: 200,
-            color: '#ff000055',
-            strokeWidth: 2,
-            strokeColor: '#ffffff',
-        });
+        // const circleMarker = new mapgl.Circle(map, {
+        //     coordinates: [137.00395936927842, 50.54691620051855],
+        //     radius: 200,
+        //     color: '#ff000055',
+        //     strokeWidth: 2,
+        //     strokeColor: '#ffffff',
+        // });
         control
             .getContainer()
             .querySelector('#find-me')

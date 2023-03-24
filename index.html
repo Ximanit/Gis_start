@@ -78,10 +78,10 @@
                 navigator.geolocation.getCurrentPosition(success, error);
             }
         }
-        const circleMarker = new mapgl.CircleMarker(map, {
-            coordinates: status,
-            radius: 80,
-            color: '#ff0000',
+        const circleMarker = new mapgl.Circle(map, {
+            coordinates: [137.00395936927842, 50.54691620051855],
+            radius: 200,
+            color: '#ff000055',
             strokeWidth: 2,
             strokeColor: '#ffffff',
         });

@@ -104,6 +104,7 @@ function geoFindMe() {
     }
 }
 
+
 control
     .getContainer()
     .querySelector('#find-me')

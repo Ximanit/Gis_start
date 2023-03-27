@@ -28,27 +28,26 @@ const control = new mapgl.Control(map, controlContent, {
 });
 
 const status = control.getContainer().querySelector('#status');
-let  external_circle, interior_circle;
+let external_circle, interior_circle;
 
 
 
 function success(pos) {
     const center = [pos.coords.longitude, pos.coords.latitude];
-    let radius = prompt('Введите радиус в котором искать кафе','');
-    if (radius == ''){
+    let radius = prompt('Введите радиус в котором искать кафе', '');
+    if (radius == '') {
         status.textContent = '';
-        if (external_circle ||interior_circle) {
+        if (external_circle || interior_circle) {
             external_circle.destroy();
             interior_circle.destroy();
         }
         external_circle = new mapgl.Circle(map, {
             coordinates: center,
             radius: 200,
-            color: '#ff000055',
+            
             strokeWidth: 2,
             strokeColor: '#ffffff',
             stroke2Width: 6,
-            stroke2Color: '#0088ff55',
         });
         interior_circle = new mapgl.CircleMarker(map, {
             coordinates: center,
@@ -61,21 +60,22 @@ function success(pos) {
         });
         map.setCenter(center);
         map.setZoom(16);
-    }
-    else{
+        const marker = new mapgl.Marker(map, {
+            coordinates: [pos.coords.longitude, pos.coords.latitude],
+        });
+    } 
+    else {
         status.textContent = '';
-        if (external_circle ||interior_circle) {
+        if (external_circle || interior_circle) {
             external_circle.destroy();
             interior_circle.destroy();
         }
         external_circle = new mapgl.Circle(map, {
             coordinates: center,
             radius: radius,
-            color: '#ff000055',
             strokeWidth: 2,
             strokeColor: '#ffffff',
             stroke2Width: 6,
-            stroke2Color: '#0088ff55',
         });
         interior_circle = new mapgl.CircleMarker(map, {
             coordinates: center,
@@ -109,3 +109,23 @@ control
     .getContainer()
     .querySelector('#find-me')
     .addEventListener('click', geoFindMe);
+
+let selectedIds = [];
+
+// map.on('click', (e) => {
+//     if (!e.target) {
+//         return;
+//     }
+
+//     const {
+//         id
+//     } = e.target;
+
+//     if (selectedIds.includes(id)) {
+//         selectedIds = selectedIds.filter((i) => i !== id);
+//     } else {
+//         selectedIds.push(id);
+//     }
+
+//     map.setSelectedObjects(selectedIds);
+// });

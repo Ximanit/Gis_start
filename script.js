@@ -21,43 +21,74 @@ const controlContent = `
             </button>
         </div>
         <p id="status"></p>
-    `;
+`;
 
 const control = new mapgl.Control(map, controlContent, {
     position: 'topLeft',
 });
 
 const status = control.getContainer().querySelector('#status');
-let circle;
+let  external_circle, interior_circle;
+
+
 
 function success(pos) {
     const center = [pos.coords.longitude, pos.coords.latitude];
-
-    status.textContent = '';
-    if (circle) {
-        circle.destroy();
+    let radius = prompt('Введите радиус в котором искать кафе','');
+    if (radius == ''){
+        status.textContent = '';
+        if (external_circle ||interior_circle) {
+            external_circle.destroy();
+            interior_circle.destroy();
+        }
+        external_circle = new mapgl.Circle(map, {
+            coordinates: center,
+            radius: 200,
+            color: '#ff000055',
+            strokeWidth: 2,
+            strokeColor: '#ffffff',
+            stroke2Width: 6,
+            stroke2Color: '#0088ff55',
+        });
+        interior_circle = new mapgl.CircleMarker(map, {
+            coordinates: center,
+            radius: 14,
+            color: '#0088ff',
+            strokeWidth: 4,
+            strokeColor: '#ffffff',
+            stroke2Width: 6,
+            stroke2Color: '#0088ff55',
+        });
+        map.setCenter(center);
+        map.setZoom(16);
     }
-
-    circle = new mapgl.Circle(map, {
-        coordinates: center,
-        radius: 200,
-        color: '#ff000055',
-        strokeWidth: 2,
-        strokeColor: '#ffffff',
-        stroke2Width: 6,
-        stroke2Color: '#0088ff55',
-    });
-    circle = new mapgl.CircleMarker(map, {
-        coordinates: center,
-        radius: 14,
-        color: '#0088ff',
-        strokeWidth: 4,
-        strokeColor: '#ffffff',
-        stroke2Width: 6,
-        stroke2Color: '#0088ff55',
-    });
-    map.setCenter(center);
-    map.setZoom(16);
+    else{
+        status.textContent = '';
+        if (external_circle ||interior_circle) {
+            external_circle.destroy();
+            interior_circle.destroy();
+        }
+        external_circle = new mapgl.Circle(map, {
+            coordinates: center,
+            radius: radius,
+            color: '#ff000055',
+            strokeWidth: 2,
+            strokeColor: '#ffffff',
+            stroke2Width: 6,
+            stroke2Color: '#0088ff55',
+        });
+        interior_circle = new mapgl.CircleMarker(map, {
+            coordinates: center,
+            radius: 14,
+            color: '#0088ff',
+            strokeWidth: 4,
+            strokeColor: '#ffffff',
+            stroke2Width: 6,
+            stroke2Color: '#0088ff55',
+        });
+        map.setCenter(center);
+        map.setZoom(16);
+    }
 }
 
 function error() {
@@ -72,13 +103,7 @@ function geoFindMe() {
         navigator.geolocation.getCurrentPosition(success, error);
     }
 }
-// const circleMarker = new mapgl.Circle(map, {
-//     coordinates: [137.00395936927842, 50.54691620051855],
-//     radius: 200,
-//     color: '#ff000055',
-//     strokeWidth: 2,
-//     strokeColor: '#ffffff',
-// });
+
 control
     .getContainer()
     .querySelector('#find-me')

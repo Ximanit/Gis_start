@@ -44,7 +44,7 @@ function success(pos) {
         external_circle = new mapgl.Circle(map, {
             coordinates: center,
             radius: 200,
-            
+
             strokeWidth: 2,
             strokeColor: '#ffffff',
             stroke2Width: 6,
@@ -63,8 +63,7 @@ function success(pos) {
         const marker = new mapgl.Marker(map, {
             coordinates: [pos.coords.longitude, pos.coords.latitude],
         });
-    } 
-    else {
+    } else {
         status.textContent = '';
         if (external_circle || interior_circle) {
             external_circle.destroy();
@@ -89,6 +88,23 @@ function success(pos) {
         map.setCenter(center);
         map.setZoom(16);
     }
+    radius = radius;
+    const point = [pos.coords.longitude, pos.coords.latitude];
+    const key = "rujnfh1727";
+
+    // Динамически создаем URL-строку запроса с переменной radius
+    const url = `https://catalog.api.2gis.com/3.0/items?q=кафе&type=branch&point=${point}&radius=${radius}&key=${key}`;
+
+    // Отправляем GET-запрос на сервер
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            // Парсим JSON-файл и вытаскиваем данные
+            const items = data.result.items;
+            const addressNames = items.map(item => item.address_name);
+            console.log(addressNames);
+        })
+        .catch(error => console.error(error));
 }
 
 function error() {

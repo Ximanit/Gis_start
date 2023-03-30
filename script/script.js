@@ -60,9 +60,9 @@ function success(pos) {
         });
         map.setCenter(center);
         map.setZoom(16);
-        const marker = new mapgl.Marker(map, {
-            coordinates: [pos.coords.longitude, pos.coords.latitude],
-        });
+        // const marker = new mapgl.Marker(map, {
+        //     coordinates: [pos.coords.longitude, pos.coords.latitude],
+        // });
     } else {
         status.textContent = '';
         if (external_circle || interior_circle) {
@@ -95,16 +95,72 @@ function success(pos) {
     // Динамически создаем URL-строку запроса с переменной radius
     const url = `https://catalog.api.2gis.com/3.0/items?q=кафе&type=branch&point=${point}&radius=${radius}&key=${key}`;
 
-    // Отправляем GET-запрос на сервер
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            // Парсим JSON-файл и вытаскиваем данные
-            const items = data.result.items;
-            const addressNames = items.map(item => item.address_name);
-            console.log(addressNames);
-        })
-        .catch(error => console.error(error));
+    // Создаем объект запроса
+    const xhr = new XMLHttpRequest();
+
+    // Настраиваем запрос
+    xhr.open('GET', url);
+
+    // Обрабатываем ответ сервера
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            // Парсим полученный JSON
+            const response = JSON.parse(xhr.responseText);
+
+            // Вытаскиваем все значения address_name в отдельные переменные
+            const addresses = response.result.items.map(item => item.address_name);
+            console.log(addresses);
+
+            // Формируем URL для следующего запроса
+            const city = "Комсомольск-на-Амуре,";
+
+            // Отправляем запросы на получение геокодированных координат и создание маркеров на карте
+            for (let i = 0; i < addresses.length; i++) {
+                const address = encodeURIComponent(addresses[i]);
+                const geoUrl = `https://catalog.api.2gis.com/3.0/items/geocode?q=${city}${address}&fields=items.point,items.geometry.centroid&key=${key}`;
+
+                // Создаем объект запроса
+                const geoXhr = new XMLHttpRequest();
+
+                // Настраиваем запрос
+                geoXhr.open('GET', geoUrl);
+
+                // Обрабатываем ответ сервера
+                geoXhr.onload = function () {
+                    if (geoXhr.status === 200) {
+                        // Парсим полученный JSON
+                        const geoResponse = JSON.parse(geoXhr.responseText);
+
+                        // Проверяем, что координаты маркера существуют
+                        if (geoResponse.result.items[0] ?.point) {
+                            // Вытаскиваем координаты маркера
+                            const lat = geoResponse.result.items[0].point.lat;
+                            const lon = geoResponse.result.items[0].point.lon;
+                            console.log(`Latitude: ${lat}, Longitude: ${lon}`);
+
+                            //// Создаем маркер на карте
+                            const marker = new mapgl.Marker(map, {
+                                coordinates: [lon, lat],
+                            });
+                        } else {
+                            console.error('Ошибка получения координат маркера');
+                        }
+                    } else {
+                        console.error('Ошибка запроса геокодинга');
+                    }
+                };
+
+                // Отправляем запрос
+                geoXhr.send();
+            }
+
+        } else {
+            console.error('Ошибка запроса каталога');
+        }
+    };
+
+    // Отправляем запрос
+    xhr.send();
 }
 
 function error() {
@@ -126,7 +182,7 @@ control
     .querySelector('#find-me')
     .addEventListener('click', geoFindMe);
 
-let selectedIds = [];
+// let selectedIds = [];
 
 // map.on('click', (e) => {
 //     if (!e.target) {

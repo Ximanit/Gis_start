@@ -1,5 +1,5 @@
 const map = new mapgl.Map('container', {
-    center: [137.00395936927842, 50.54691620051855],
+    center: [37.8446736269835, 55.7032052920768],
     zoom: 18,
     key: 'bfd8bbca-8abf-11ea-b033-5fa57aae2de7',
 });
@@ -11,7 +11,7 @@ const controlContent = `
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
                     height="32"
-                    viewBox="0 0 32 32"
+                    viewBox="0 0 32 32"ц
                 >
                     <path
                         fill="currentColor"

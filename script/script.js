@@ -1,5 +1,5 @@
 const map = new mapgl.Map('container', {
-    center: [37.8446736269835, 55.7032052920768],
+    center: [137.00395936927842, 50.54691620051855],
     zoom: 18,
     key: 'bfd8bbca-8abf-11ea-b033-5fa57aae2de7',
 });
@@ -127,7 +127,7 @@ function success(pos) {
                     for (let i = 0; i < addresses.length; i++) {
                         const address = encodeURIComponent(addresses[i]);
                         const geoUrl = `https://catalog.api.2gis.com/3.0/items/geocode?q=${city},${address}&fields=items.point,items.geometry.centroid&key=${key}`;
-
+                        
                         // Создаем объект запроса
                         const geoXhr = new XMLHttpRequest();
 
@@ -145,7 +145,7 @@ function success(pos) {
                                     // Вытаскиваем координаты маркера
                                     const lat = geoResponse.result.items[0].point.lat;
                                     const lon = geoResponse.result.items[0].point.lon;
-                                    // console.log(`Latitude: ${lat}, Longitude: ${lon}`);
+                                    console.log(`Latitude: ${lat}, Longitude: ${lon}`);
 
                                     //// Создаем маркер на карте
                                     const marker = new mapgl.Marker(map, {

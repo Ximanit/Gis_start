@@ -27,20 +27,19 @@ const control = new mapgl.Control(map, controlContent, {
     position: 'topLeft',
 });
 
-const status = control.getContainer().querySelector('#status');
 let external_circle, interior_circle;
 
-
-
 function success(pos) {
+    const status = control.getContainer().querySelector('#status');
     const center = [pos.coords.longitude, pos.coords.latitude];
     let radius = prompt('Введите радиус в котором искать кафе', '');
     if (radius == '') {
         status.textContent = '';
-        if (external_circle || interior_circle) {
+        if (external_circle)
             external_circle.destroy();
+        if (interior_circle)
             interior_circle.destroy();
-        }
+
         external_circle = new mapgl.Circle(map, {
             coordinates: center,
             radius: 200,
@@ -60,15 +59,16 @@ function success(pos) {
         });
         map.setCenter(center);
         map.setZoom(16);
-        // const marker = new mapgl.Marker(map, {
-        //     coordinates: [pos.coords.longitude, pos.coords.latitude],
-        // });
+        const marker = new mapgl.Marker(map, {
+            coordinates: [pos.coords.longitude, pos.coords.latitude],
+        });
     } else {
         status.textContent = '';
-        if (external_circle || interior_circle) {
+        if (external_circle)
             external_circle.destroy();
+        if (interior_circle)
             interior_circle.destroy();
-        }
+
         external_circle = new mapgl.Circle(map, {
             coordinates: center,
             radius: radius,
@@ -88,72 +88,86 @@ function success(pos) {
         map.setCenter(center);
         map.setZoom(16);
     }
+
     radius = radius;
     const point = [pos.coords.longitude, pos.coords.latitude];
     const key = "rujnfh1727";
 
     // Динамически создаем URL-строку запроса с переменной radius
     const url = `https://catalog.api.2gis.com/3.0/items?q=кафе&type=branch&point=${point}&radius=${radius}&key=${key}`;
-
     // Создаем объект запроса
     const xhr = new XMLHttpRequest();
-
     // Настраиваем запрос
     xhr.open('GET', url);
-
     // Обрабатываем ответ сервера
-    xhr.onload = function () {
+    xhr.onload = () => {
         if (xhr.status === 200) {
             // Парсим полученный JSON
             const response = JSON.parse(xhr.responseText);
 
             // Вытаскиваем все значения address_name в отдельные переменные
             const addresses = response.result.items.map(item => item.address_name);
-            console.log(addresses);
+            // console.log(addresses);
 
-            // Формируем URL для следующего запроса
-            const city = "Комсомольск-на-Амуре,";
+            const request = new XMLHttpRequest();
 
-            // Отправляем запросы на получение геокодированных координат и создание маркеров на карте
-            for (let i = 0; i < addresses.length; i++) {
-                const address = encodeURIComponent(addresses[i]);
-                const geoUrl = `https://catalog.api.2gis.com/3.0/items/geocode?q=${city}${address}&fields=items.point,items.geometry.centroid&key=${key}`;
+            const urlCity = `https://catalog.api.2gis.com/3.0/items?type=adm_div.city&lon=${pos.coords.longitude}&lat=${pos.coords.latitude}&key=${key}`;
 
-                // Создаем объект запроса
-                const geoXhr = new XMLHttpRequest();
+            request.open("GET", urlCity);
 
-                // Настраиваем запрос
-                geoXhr.open('GET', geoUrl);
+            request.onload = () => {
+                if (request.status === 200) {
+                    const json = JSON.parse(request.responseText);
+                    const cityName = json.result.items[0].name;
+                    console.log(cityName);
 
-                // Обрабатываем ответ сервера
-                geoXhr.onload = function () {
-                    if (geoXhr.status === 200) {
-                        // Парсим полученный JSON
-                        const geoResponse = JSON.parse(geoXhr.responseText);
+                    // Формируем URL для следующего запроса
+                    const city = cityName;
+                    // Отправляем запросы на получение геокодированных координат и создание маркеров на карте
+                    for (let i = 0; i < addresses.length; i++) {
+                        const address = encodeURIComponent(addresses[i]);
+                        const geoUrl = `https://catalog.api.2gis.com/3.0/items/geocode?q=${city},${address}&fields=items.point,items.geometry.centroid&key=${key}`;
 
-                        // Проверяем, что координаты маркера существуют
-                        if (geoResponse.result.items[0] ?.point) {
-                            // Вытаскиваем координаты маркера
-                            const lat = geoResponse.result.items[0].point.lat;
-                            const lon = geoResponse.result.items[0].point.lon;
-                            console.log(`Latitude: ${lat}, Longitude: ${lon}`);
+                        // Создаем объект запроса
+                        const geoXhr = new XMLHttpRequest();
 
-                            //// Создаем маркер на карте
-                            const marker = new mapgl.Marker(map, {
-                                coordinates: [lon, lat],
-                            });
-                        } else {
-                            console.error('Ошибка получения координат маркера');
-                        }
-                    } else {
-                        console.error('Ошибка запроса геокодинга');
+                        // Настраиваем запрос
+                        geoXhr.open('GET', geoUrl);
+
+                        // Обрабатываем ответ сервера
+                        geoXhr.onload = function () {
+                            if (geoXhr.status === 200) {
+                                // Парсим полученный JSON
+                                const geoResponse = JSON.parse(geoXhr.responseText);
+
+                                // Проверяем, что координаты маркера существуют
+                                if (geoResponse.result.items[0] ?.point) {
+                                    // Вытаскиваем координаты маркера
+                                    const lat = geoResponse.result.items[0].point.lat;
+                                    const lon = geoResponse.result.items[0].point.lon;
+                                    // console.log(`Latitude: ${lat}, Longitude: ${lon}`);
+
+                                    //// Создаем маркер на карте
+                                    const marker = new mapgl.Marker(map, {
+                                        coordinates: [lon, lat],
+                                    });
+                                } else {
+                                    console.error('Ошибка получения координат маркера');
+                                }
+                            } else {
+                                console.error('Ошибка запроса геокодинга');
+                            }
+                        };
+
+                        // Отправляем запрос
+                        geoXhr.send();
                     }
-                };
 
-                // Отправляем запрос
-                geoXhr.send();
-            }
-
+                } else {
+                    console.error("Ошибка запроса");
+                }
+            };
+            request.send();
         } else {
             console.error('Ошибка запроса каталога');
         }

@@ -148,7 +148,7 @@ function success(pos) {
                     coordinates: [lon, lat],
                   });
                   marker.hide();
-                  // marker.show();
+                  marker.show();
                 } else {
                   console.error("Ошибка получения координат маркера");
                 }

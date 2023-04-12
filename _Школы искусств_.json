@@ -1,0 +1,3810 @@
+{
+  "result": {
+    "items": [
+      {
+        "address": {
+          "building_id": "4504235282714748",
+          "components": [
+            {
+              "number": "2/1 ст4",
+              "street": "Шлюзовая набережная",
+              "street_id": "4504338361749721",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115114"
+        },
+        "address_name": "Шлюзовая набережная, 2/1 ст4",
+        "ads": {
+          "article": "Художественная школа рисования для взрослых и детей. Обучение рисованию и живописи с нуля. 4 ступени обучения от начинающего до профессионального художника. Курсы 5–10 месяцев, удобные и большие аудитории. Школа создана в 2003 году. Занятия в будни и выходные. 5 минут от метро «Павелецкая». Курсы:<br />•&nbsp;Основы академического рисунка и живописи.<br />•&nbsp;Основы масляной живописи.<br />•&nbsp;Акварельная живопись.<br />•&nbsp;Рисунок пастелью.<br />•&nbsp;Дизайнерский рисунок.<br />•&nbsp;Пейзаж. Анималистические зарисовки.<br />Преимущества школы:<br />•&nbsp;эффективная программа обучения;<br />•&nbsp;профессиональный коллектив;<br />•&nbsp;выбор дополнительных дисциплин;<br />•&nbsp;комфортное расписание.<br />",
+          "link": {
+            "text": "Расписание курсов",
+            "value": "http://link.2gis.com/1.2/90577534/webapi/20230401/project32/4504127914205018/null/AB8gkj6B3AG2J5634243GGGG7sh9iy02G6G495395226049HsEio75372J74G4I1G48J4JGJ1qxzuv6B148537A3741H2J82HH1d6?https://www.izocenter.ru/kursy-dlya-vzroslyh/"
+          },
+          "text": "Курсы рисования для взрослых и детей. Вдохновение гарантируем!"
+        },
+        "id": "4504127914205018",
+        "name": "Вдохновение, художественная школа",
+        "point": {
+          "lat": 55.731952,
+          "lon": 37.642598
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282696314",
+          "components": [
+            {
+              "number": "35 ст7-9",
+              "street": "Большая Татарская улица",
+              "street_id": "4504338361749968",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115184"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Большая Татарская улица, 35 ст7-9",
+        "ads": {
+          "article": "«Школа рисования и живописи на Татарской» для взрослых и детей приглашает всех желающих научиться рисовать или улучшить свои навыки. Мы предлагаем программы для учеников любого возраста и уровня рисования. Программы проводятся по классическим и авторским методикам. В обучении учитываем умения и особенности каждого ученика.<br />В нашей школе живописи для начинающих взрослых и детей вы получите фундаментальные знания в области изобразительного искусства, отшлифуете на практике художественные приёмы рисования, найдёте свой почерк, сформируете уникальное восприятие окружающего мира и раскроете потенциал.<br />Профессиональное обучение академическому рисунку и живописи с нуля. Учитесь рисовать!",
+          "link": {
+            "text": "Расписание курсов",
+            "value": "http://link.2gis.com/1.2/82C92941/webapi/20230401/project32/70000001027291589/null/AB8gkj6B3AG2J81301I23GGG7sh9iy02G6G49539524A189AsEio75372J74G4I1G41BI5GJ1qxzuv6B1485102259H2H4J6HHG4fc?https://izokurs.ru/shkola/"
+          },
+          "text": "Курсы рисования и живописи для взрослых — 1000 кв. м для творчества!"
+        },
+        "id": "70000001027291589",
+        "name": "Школа рисования и живописи на Татарской",
+        "point": {
+          "lat": 55.737726,
+          "lon": 37.636902
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282821999",
+          "components": [
+            {
+              "number": "34 к4",
+              "street": "Марксистская улица",
+              "street_id": "4504338361749335",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "109147"
+        },
+        "address_comment": "цокольный этаж",
+        "address_name": "Марксистская улица, 34 к4",
+        "id": "70000001028561234",
+        "name": "Hendrix studio, репетиционная база",
+        "point": {
+          "lat": 55.735274,
+          "lon": 37.663452
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282583991",
+          "components": [
+            {
+              "number": "23",
+              "street": "Ферганская улица",
+              "street_id": "4504338361748539",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "109444"
+        },
+        "address_name": "Ферганская улица, 23",
+        "id": "4504127908738544",
+        "name": "Детская школа искусств им. М.А. Балакирева",
+        "point": {
+          "lat": 55.70384,
+          "lon": 37.822722
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282683685",
+          "components": [
+            {
+              "number": "5",
+              "street": "улица Маршала Бирюзова",
+              "street_id": "4504338361746573",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "123298"
+        },
+        "address_name": "улица Маршала Бирюзова, 5",
+        "full_name": "Москва, улица Маршала Бирюзова, 5",
+        "id": "4504127908780343",
+        "name": "Домисолька, детский музыкальный театр",
+        "point": {
+          "lat": 55.790169,
+          "lon": 37.497465
+        },
+        "purpose_name": "Культурное учреждение",
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282748378",
+          "components": [
+            {
+              "number": "5 ст1",
+              "street": "Малый Патриарший переулок",
+              "street_id": "4504338361749677",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "123001"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Малый Патриарший переулок, 5 ст1",
+        "id": "70000001066537187",
+        "name": "Masters, образовательный центр в сфере искусств",
+        "point": {
+          "lat": 55.763309,
+          "lon": 37.591368
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282555656",
+          "components": [
+            {
+              "number": "109 к6",
+              "street": "Волгоградский проспект",
+              "street_id": "4504338361748374",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "109117"
+        },
+        "address_name": "Волгоградский проспект, 109 к6",
+        "id": "4504127908836786",
+        "name": "Детская школа искусств Центр",
+        "point": {
+          "lat": 55.70907,
+          "lon": 37.760642
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282737808",
+          "components": [
+            {
+              "number": "5/13",
+              "street": "Смоленская набережная",
+              "street_id": "4504338361747168",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "121099"
+        },
+        "address_name": "Смоленская набережная, 5/13",
+        "id": "4504128908415719",
+        "name": "Мир искусств, центр новой культуры",
+        "point": {
+          "lat": 55.749615,
+          "lon": 37.576576
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282586882",
+          "components": [
+            {
+              "number": "1Б",
+              "street": "аллея Жемчуговой",
+              "street_id": "4504338361748629",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "111402"
+        },
+        "address_name": "аллея Жемчуговой, 1Б",
+        "id": "4504127908542903",
+        "name": "Кусково, Московская городская объединенная детская школа искусств",
+        "point": {
+          "lat": 55.733161,
+          "lon": 37.817064
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "18:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282557515",
+          "components": [
+            {
+              "number": "58",
+              "street": "Новогиреевская улица",
+              "street_id": "4504338361746958",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "111394"
+        },
+        "address_name": "Новогиреевская улица, 58",
+        "id": "4504127908527260",
+        "name": "Детская школа искусств им. Н.А. Римского-Корсакова",
+        "point": {
+          "lat": 55.747388,
+          "lon": 37.801252
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282555434",
+          "components": [
+            {
+              "number": "18",
+              "street": "Зоологическая улица",
+              "street_id": "4504338361749649",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "123242"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Зоологическая улица, 18",
+        "id": "4504127908738361",
+        "name": "Старт, детская школа искусств архитектурно-художественного профиля",
+        "point": {
+          "lat": 55.76497,
+          "lon": 37.583261
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282690859",
+          "components": [
+            {
+              "number": "1",
+              "street": "Живописная улица",
+              "street_id": "4504338361747334",
+              "type": "street_number"
+            }
+          ],
+          "landmark_name": "Континенталь",
+          "postcode": "123103"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Живописная улица, 1",
+        "id": "4504127908721813",
+        "name": "Детская музыкальная школа им. В.В. Андреева",
+        "point": {
+          "lat": 55.779944,
+          "lon": 37.452925
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "16:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282566580",
+          "components": [
+            {
+              "number": "7",
+              "street": "Кулаков переулок",
+              "street_id": "4504338361745804",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "129626"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Кулаков переулок, 7",
+        "id": "4504127908527780",
+        "name": "Московская школа искусств им. Е.Ф. Светланова",
+        "point": {
+          "lat": 55.804771,
+          "lon": 37.639173
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282556214",
+          "components": [
+            {
+              "number": "4а",
+              "street": "Красного Маяка улица",
+              "street_id": "4504338361745462",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "117519"
+        },
+        "address_name": "Красного Маяка улица, 4а",
+        "id": "4504127908738964",
+        "name": "Тутти, детская школа искусств",
+        "point": {
+          "lat": 55.612843,
+          "lon": 37.600721
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "15:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282817554",
+          "components": [
+            {
+              "number": "15",
+              "street": "Народная улица",
+              "street_id": "4504338361749317",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115172"
+        },
+        "address_name": "Народная улица, 15",
+        "id": "70000001067700530",
+        "name": "House of arts, школа искусств",
+        "point": {
+          "lat": 55.736789,
+          "lon": 37.649839
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282564096",
+          "components": [
+            {
+              "number": "12",
+              "street": "улица Долгова",
+              "street_id": "4504338361747053",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "125362"
+        },
+        "address_name": "улица Долгова, 12",
+        "id": "70000001034177766",
+        "name": "Первая московская школа искусств им. Л.Н. Оборина",
+        "point": {
+          "lat": 55.830368,
+          "lon": 37.450489
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282612991",
+          "components": [
+            {
+              "number": "42 к3",
+              "street": "Каширское шоссе",
+              "street_id": "4504338361745848",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115409"
+        },
+        "address_name": "Каширское шоссе, 42 к3",
+        "id": "4504127908738906",
+        "name": "Детская школа искусств им. Святослава Рихтера",
+        "point": {
+          "lat": 55.647465,
+          "lon": 37.660947
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282632086",
+          "components": [
+            {
+              "number": "65",
+              "street": "Ярославское шоссе",
+              "street_id": "4504338361789578",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "129337"
+        },
+        "address_name": "Ярославское шоссе, 65",
+        "id": "4504127908527819",
+        "name": "Детская школа искусств им. С.И. Мамонтова",
+        "point": {
+          "lat": 55.866194,
+          "lon": 37.701901
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282651801",
+          "components": [
+            {
+              "number": "7а",
+              "street": "Верхняя Красносельская улица",
+              "street_id": "4504338361746452",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "107140"
+        },
+        "address_name": "Верхняя Красносельская улица, 7а",
+        "id": "4504127908543026",
+        "name": "Детская школа искусств им. Н.Г. Рубинштейна",
+        "point": {
+          "lat": 55.78572,
+          "lon": 37.661803
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282558091",
+          "components": [
+            {
+              "number": "5 к3",
+              "street": "улица Паустовского",
+              "street_id": "4504338361745941",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "117463"
+        },
+        "address_name": "улица Паустовского, 5 к3",
+        "id": "4504127908738351",
+        "name": "Детская школа искусств №11",
+        "point": {
+          "lat": 55.599367,
+          "lon": 37.543768
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "17:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235283122179",
+          "components": [
+            {
+              "number": "53а",
+              "street": "Бескудниковский бульвар",
+              "street_id": "4504338361745851",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "127486"
+        },
+        "address_name": "Бескудниковский бульвар, 53а",
+        "id": "4504127908528788",
+        "name": "Детская школа искусств им. И.С. Баха",
+        "point": {
+          "lat": 55.871159,
+          "lon": 37.542285
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282695910",
+          "components": [
+            {
+              "number": "48",
+              "street": "улица Козлова",
+              "street_id": "4504338361755001",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "121357"
+        },
+        "address_name": "улица Козлова, 48",
+        "id": "4504127908528622",
+        "name": "Детская школа искусств им. Ю.С. Саульского",
+        "point": {
+          "lat": 55.716614,
+          "lon": 37.448002
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282593275",
+          "components": [
+            {
+              "number": "18 к1",
+              "street": "1-я Новокузьминская улица",
+              "street_id": "4504338361748546",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "109377"
+        },
+        "address_name": "1-я Новокузьминская улица, 18 к1",
+        "id": "4504127908738524",
+        "name": "Детская школа искусств им. М.А. Балакирева",
+        "point": {
+          "lat": 55.713723,
+          "lon": 37.791359
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282629189",
+          "components": [
+            {
+              "number": "23 к2",
+              "street": "Крылатская улица",
+              "street_id": "4504338361747818",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "121614"
+        },
+        "address_name": "Крылатская улица, 23 к2",
+        "id": "4504127908722155",
+        "name": "Детская школа искусств им. И.С. Козловского",
+        "point": {
+          "lat": 55.770704,
+          "lon": 37.414966
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "comment": "прием граждан: вт: 16:00-18:00"
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282582765",
+          "components": [
+            {
+              "number": "7 к Г",
+              "street": "микрорайон Северное Чертаново",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "117648"
+        },
+        "address_comment": "2 этаж",
+        "address_name": "микрорайон Северное Чертаново, 7 к Г",
+        "id": "4504127908850841",
+        "name": "Исток, детская школа искусств",
+        "point": {
+          "lat": 55.633927,
+          "lon": 37.589598
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282735189",
+          "components": [
+            {
+              "number": "10",
+              "street": "Фрунзенская набережная",
+              "street_id": "4504338361747217",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "119021"
+        },
+        "address_name": "Фрунзенская набережная, 10",
+        "id": "70000001049218102",
+        "name": "Краски, арт-студия",
+        "point": {
+          "lat": 55.73274,
+          "lon": 37.594646
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "comment": "по предварительной записи: вт-вс"
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235283121481",
+          "components": [
+            {
+              "number": "8Б",
+              "street": "Абрамцевская улица",
+              "street_id": "4504338361745423",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "127576"
+        },
+        "address_name": "Абрамцевская улица, 8Б",
+        "id": "4504127908542808",
+        "name": "Детская школа искусств им. В.С. Калинникова",
+        "point": {
+          "lat": 55.894882,
+          "lon": 37.574217
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282570214",
+          "components": [
+            {
+              "number": "19а",
+              "street": "Большая Черёмушкинская улица",
+              "street_id": "4504338361748173",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "117447"
+        },
+        "address_name": "Большая Черёмушкинская улица, 19а",
+        "id": "70000001025392536",
+        "name": "Юность, детская школа искусств",
+        "point": {
+          "lat": 55.682785,
+          "lon": 37.593274
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282960990",
+          "components": [
+            {
+              "number": "47 к1",
+              "street": "Митинская улица",
+              "street_id": "4504338361774061",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "125368"
+        },
+        "address_name": "Митинская улица, 47 к1",
+        "id": "4504127908527552",
+        "name": "Детская школа искусств им. И.Ф. Стравинского",
+        "point": {
+          "lat": 55.850823,
+          "lon": 37.351086
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282569773",
+          "components": [
+            {
+              "number": "7 к2",
+              "street": "улица Цандера",
+              "street_id": "4504338361745813",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "129075"
+        },
+        "address_name": "улица Цандера, 7 к2",
+        "id": "4504127908543249",
+        "name": "Детская школа искусств им. А.С. Даргомыжского",
+        "point": {
+          "lat": 55.819057,
+          "lon": 37.628655
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:30"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282799762",
+          "components": [
+            {
+              "number": "6",
+              "street": "улица Большая Филёвская",
+              "street_id": "4504338361748145",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "121087"
+        },
+        "address_name": "улица Большая Филёвская, 6",
+        "id": "70000001048724869",
+        "name": "Детская школа искусств им. А.А. Алябьева",
+        "point": {
+          "lat": 55.752572,
+          "lon": 37.509709
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282714449",
+          "components": [
+            {
+              "number": "19 ст1",
+              "street": "Садовническая улица",
+              "street_id": "4504338361749918",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115035"
+        },
+        "address_name": "Садовническая улица, 19 ст1",
+        "id": "4504127908721089",
+        "name": "Детская школа искусств им. Д.С. Бортнянского, г. Москвы",
+        "point": {
+          "lat": 55.746658,
+          "lon": 37.632956
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282534983",
+          "components": [
+            {
+              "number": "31 к3",
+              "street": "Ясеневая улица",
+              "street_id": "4504338361745528",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115583"
+        },
+        "address_name": "Ясеневая улица, 31 к3",
+        "id": "4504127908985191",
+        "name": "Родник, детская школа искусств",
+        "point": {
+          "lat": 55.606842,
+          "lon": 37.737009
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:15",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282684731",
+          "components": [
+            {
+              "number": "20 ст1",
+              "street": "улица Александра Солженицына",
+              "street_id": "4504338361749382",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "109004"
+        },
+        "address_comment": "9 офис; 2 этаж",
+        "address_name": "улица Александра Солженицына, 20 ст1",
+        "id": "70000001033290572",
+        "name": "Art фабрика, художественная студия",
+        "point": {
+          "lat": 55.743294,
+          "lon": 37.660947
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "comment": "по предварительной записи: пн-вс"
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282567692",
+          "components": [
+            {
+              "number": "66Б",
+              "street": "улица Лобачевского",
+              "street_id": "4504338361745784",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "119454"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "улица Лобачевского, 66Б",
+        "id": "4504127908528986",
+        "name": "Детская школа искусств им. Ф. Шуберта",
+        "point": {
+          "lat": 55.67715,
+          "lon": 37.495501
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "70030076179578559",
+          "components": [
+            {
+              "number": "83а",
+              "street": "улица Гурьянова",
+              "street_id": "4504338361748220",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "109383"
+        },
+        "address_name": "улица Гурьянова, 83а",
+        "id": "4504127908721899",
+        "name": "Школа искусств им. М.И. Глинки",
+        "point": {
+          "lat": 55.674286,
+          "lon": 37.718597
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282865403",
+          "components": [
+            {
+              "number": "к1453",
+              "street": "Зеленоград",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "124617"
+        },
+        "address_name": "Зеленоград, к1453",
+        "id": "70000001044881760",
+        "name": "Детская школа искусств им. С.П. Дягилева",
+        "point": {
+          "lat": 55.984534,
+          "lon": 37.158353
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282570794",
+          "components": [
+            {
+              "number": "23/13",
+              "street": "улица Академика Курчатова",
+              "street_id": "4504338361746577",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "123182"
+        },
+        "address_name": "улица Академика Курчатова, 23/13",
+        "id": "4504127911013256",
+        "name": "Надежда, детская школа искусств",
+        "point": {
+          "lat": 55.806511,
+          "lon": 37.4771
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282604053",
+          "components": [
+            {
+              "number": "92 к6",
+              "street": "улица Лобачевского",
+              "street_id": "4504338361745784",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "119454"
+        },
+        "address_name": "улица Лобачевского, 92 к6",
+        "id": "4504127908742682",
+        "name": "Детская школа искусств им. В.Д. Поленова",
+        "point": {
+          "lat": 55.682639,
+          "lon": 37.484252
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "17:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "19:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235283013726",
+          "components": [
+            {
+              "number": "5а",
+              "street": "Солнечный микрорайон",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "142703"
+        },
+        "address_name": "Солнечный микрорайон, 5а",
+        "id": "4504127908851562",
+        "name": "Детская школа искусств, г. Видное",
+        "point": {
+          "lat": 55.548854,
+          "lon": 37.699907
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282687889",
+          "components": [
+            {
+              "number": "26 к1",
+              "street": "улица Гончарная",
+              "street_id": "4504338361749523",
+              "type": "street_number"
+            }
+          ],
+          "landmark_name": "Швивая горка",
+          "postcode": "115172"
+        },
+        "address_comment": "1-3 аудитория; 2 этаж",
+        "address_name": "улица Гончарная, 26 к1",
+        "id": "70000001006496602",
+        "name": "Пикассо, художественная студия",
+        "point": {
+          "lat": 55.743048,
+          "lon": 37.649204
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "11:00",
+                "to": "22:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282961551",
+          "components": [
+            {
+              "number": "40",
+              "street": "Пятницкое шоссе",
+              "street_id": "4504338361754387",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "125310"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Пятницкое шоссе, 40",
+        "id": "4504127917607472",
+        "name": "Детская школа искусств им. И.Ф. Стравинского",
+        "point": {
+          "lat": 55.855431,
+          "lon": 37.359435
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282933604",
+          "components": [
+            {
+              "number": "2",
+              "street": "улица Нахимова",
+              "street_id": "4504338361776994",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "141406"
+        },
+        "address_comment": "1-2 этаж",
+        "address_name": "улица Нахимова, 2",
+        "id": "4504127908855283",
+        "name": "Детская школа искусств им. А.Н. Верстовского",
+        "point": {
+          "lat": 55.892205,
+          "lon": 37.471622
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282696575",
+          "components": [
+            {
+              "number": "48-50 ст3",
+              "street": "Озерковская набережная",
+              "street_id": "4504338361749909",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115054"
+        },
+        "address_comment": "цокольный этаж",
+        "address_name": "Озерковская набережная, 48-50 ст3",
+        "id": "70000001067451406",
+        "name": "House of arts, школа искусств",
+        "point": {
+          "lat": 55.735281,
+          "lon": 37.638381
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282934828",
+          "components": [
+            {
+              "number": "6",
+              "street": "улица Чапаева",
+              "street_id": "4504338361774922",
+              "type": "street_number"
+            }
+          ],
+          "landmark_name": "парк им. 50-летия Октября",
+          "postcode": "141402"
+        },
+        "address_name": "улица Чапаева, 6",
+        "id": "4504127909202998",
+        "name": "Центральная детская школа искусств",
+        "point": {
+          "lat": 55.888026,
+          "lon": 37.448982
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "08:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282607060",
+          "components": [
+            {
+              "number": "20 к5",
+              "street": "Кантемировская улица",
+              "street_id": "4504338361750363",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "115409"
+        },
+        "address_comment": "1 этаж",
+        "address_name": "Кантемировская улица, 20 к5",
+        "id": "4504127908738917",
+        "name": "Детская школа искусств им. Святослава Рихтера",
+        "point": {
+          "lat": 55.640319,
+          "lon": 37.662796
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:30",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282603786",
+          "components": [
+            {
+              "number": "9Б",
+              "street": "Мичуринский проспект",
+              "street_id": "4504338361748503",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "119192"
+        },
+        "address_name": "Мичуринский проспект, 9Б",
+        "id": "4504127909238307",
+        "name": "Вдохновение, детская школа искусств",
+        "point": {
+          "lat": 55.701912,
+          "lon": 37.508199
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "70030076152535124",
+          "components": [
+            {
+              "number": "13",
+              "street": "Нововатутинский проспект",
+              "street_id": "4504338361811429",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "108836"
+        },
+        "address_name": "Нововатутинский проспект, 13",
+        "id": "70000001068523479",
+        "name": "НоВат, мастерская искусств",
+        "point": {
+          "lat": 55.520349,
+          "lon": 37.347541
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "14:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "14:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "14:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "14:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "14:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "14:00",
+                "to": "22:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282547680",
+          "components": [
+            {
+              "number": "5",
+              "street": "улица Бусиновская Горка",
+              "street_id": "4504338361745745",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "125599"
+        },
+        "address_name": "улица Бусиновская Горка, 5",
+        "id": "4504127908537101",
+        "name": "Детская школа искусств №17",
+        "point": {
+          "lat": 55.882486,
+          "lon": 37.494178
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      },
+      {
+        "address": {
+          "building_id": "4504235282739961",
+          "components": [
+            {
+              "number": "11",
+              "street": "бульвар Адмирала Ушакова",
+              "street_id": "4504338361753631",
+              "type": "street_number"
+            }
+          ],
+          "postcode": "117624"
+        },
+        "address_comment": "1-2 этаж",
+        "address_name": "бульвар Адмирала Ушакова, 11",
+        "id": "4504127908824133",
+        "name": "Детская школа искусств им. В.В. Крайнева",
+        "point": {
+          "lat": 55.546142,
+          "lon": 37.549044
+        },
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "09:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "10:00",
+                "to": "20:00"
+              }
+            ]
+          }
+        },
+        "type": "branch"
+      }
+    ]
+  }
+}

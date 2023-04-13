@@ -5,7 +5,8 @@ const center = [137.00395936927842, 50.54691620051855];
 const map = new mapgl.Map("container", {
   center: center,
   zoom: 18,
-  key: "bfd8bbca-8abf-11ea-b033-5fa57aae2de7",
+  key: "725eff52-ba5a-4258-bc02-9984efe9923a",
+  style: "c080bb6a-8134-4993-93a1-5b4d8c36a59b",
 });
 
 external_circle = new mapgl.Circle(map, {
@@ -42,31 +43,30 @@ function getDistance(coord1, coord2) {
 }
 
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "/cafes.json", true);
+xhr.open("GET", "/data/merged.json", true);
 xhr.onload = function () {
   if (xhr.status === 200) {
     // парсинг JSON
     const data = JSON.parse(xhr.responseText);
     // проверка, что data является массивом
     // цикл для записи данных в массивы
-    for (let i = 0; i < 51; i++) {
+    for (let i = 0; i < 83; i++) {
       lat[i] = data.result.items[i].point.lat;
       lon[i] = data.result.items[i].point.lon;
     }
   }
-  for (let i = 0; i < 51; i++) {
+  for (let i = 0; i < 83; i++) {
     // x = points[i][0];
     // y = points[i][1];
     markers[i] = new mapgl.Marker(map, {
       coordinates: [lon[i], lat[i]],
     });
     markers[i].hide();
-    markers[i].show();
     console.log("Markers create and hide");
     // console.log(markers[i].getCoordinates());
   }
   const points = lon.map((x, i) => [x, lat[i]]);
-  for (let i = 0; i < 51; i++) {
+  for (let i = 0; i < 83; i++) {
     const x = points[i][0];
     const y = points[i][1];
     if (getDistance(center, [x, y]) <= radius) {

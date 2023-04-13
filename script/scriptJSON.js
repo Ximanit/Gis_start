@@ -1,8 +1,8 @@
-const point = "37.622260805016765, 55.754426413554"; // Координаты точки в формате "долгота,широта"
+const point = "137.00395936927842, 50.54691620051855"; // Координаты точки в формате "долгота,широта"
 const radius = 50000; // Радиус поиска (в метрах)
 const key = "rupzho5301"; // Ваш ключ для 2GIS API
 //rupzho5301, rujnfh1727
-let query = "​Школы искусств"; // Параметр поиска (можно изменять)
+let query = "кафе"; // Параметр поиска (можно изменять)
 const name = "museam";
 
 // Функция для отправки запроса и получения данных
@@ -10,6 +10,7 @@ function getData(page) {
   const pageSize = 10; // Количество объектов на странице
   const fields = "items.point,items.schedule,items.address,items.routes"; // Список полей, которые необходимо получить о каждом объекте
   const url = `https://catalog.api.2gis.com/3.0/items?q=${query}&type=branch&point=${point}&radius=50000&key=rupzho5301&page=${page}&page_size=10&fields=${fields}`;
+  // const url = `https://catalog.api.2gis.com/3.0/items?q=кафе&point=137.00395936927842%2C50.54691620051855&radius=1000&sort_point=137.00395936927842%2C50.54691620051855&sort=distance&key=rujnfh1727&page=${page}&page_size=10&fields=items.point,items.schedule,items.address`;
 
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest(); // Создаем новый объект XMLHttpRequest

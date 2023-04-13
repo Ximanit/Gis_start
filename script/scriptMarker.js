@@ -1,4 +1,4 @@
-const radius = 300;
+const radius = 400;
 const markers = [];
 const center = [137.00395936927842, 50.54691620051855];
 
@@ -8,32 +8,6 @@ const map = new mapgl.Map("container", {
   key: "bfd8bbca-8abf-11ea-b033-5fa57aae2de7",
 });
 
-const coordinatX = [
-  [137.01896],
-  [137.010425],
-  [136.997139],
-  [137.02916],
-  [137.030483],
-  [137.006205],
-  [137.003807],
-  [137.004881],
-  [137.006524],
-];
-
-const coordinatY = [
-  [50.551827],
-  [50.537445],
-  [50.546185],
-  [50.551426],
-  [50.544822],
-  [50.547604],
-  [50.547956],
-  [50.54861],
-  [50.548854],
-];
-
-const points = coordinatX.map((x, i) => [x[0], coordinatY[i][0]]);
-
 external_circle = new mapgl.Circle(map, {
   coordinates: center,
   radius: radius,
@@ -42,11 +16,14 @@ external_circle = new mapgl.Circle(map, {
   stroke2Width: 6,
 });
 
-// Функция для вычисления расстояния между двумя точками на сфере (в метрах)
+// Создаем новый объект XMLHttpRequest
+// загрузка файла с помощью XMLHttpRequest
+const lat = [];
+const lon = [];
+
 function getDistance(coord1, coord2) {
   const [lon1, lat1] = coord1;
   const [lon2, lat2] = coord2;
-
   const R = 6371e3; // Радиус Земли в метрах
   const phi1 = (lat1 * Math.PI) / 180; // Широта первой точки в радианах
   const phi2 = (lat2 * Math.PI) / 180; // Широта второй точки в радианах
@@ -64,21 +41,43 @@ function getDistance(coord1, coord2) {
   return R * c;
 }
 
-const pointsInRadius = points.filter(
-  (point) => getDistance(center, point) <= radius
-);
-
-for (let i = 0; i < 9; i++) {
-  const x = points[i][0];
-  const y = points[i][1];
-  if (getDistance(center, [x, y]) <= radius) {
-    markers[i] = new mapgl.Marker(map, {
-      coordinates: [coordinatX[i], coordinatY[i]],
-    });
-    markers[i].hide();
-    if (coordinatX[i] == x && coordinatY[i] == y) {
-      console.log("Points true");
-      markers[i].show();
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "/cafes.json", true);
+xhr.onload = function () {
+  if (xhr.status === 200) {
+    // парсинг JSON
+    const data = JSON.parse(xhr.responseText);
+    // проверка, что data является массивом
+    // цикл для записи данных в массивы
+    for (let i = 0; i < 51; i++) {
+      lat[i] = data.result.items[i].point.lat;
+      lon[i] = data.result.items[i].point.lon;
     }
   }
-}
+  for (let i = 0; i < 51; i++) {
+    // x = points[i][0];
+    // y = points[i][1];
+    markers[i] = new mapgl.Marker(map, {
+      coordinates: [lon[i], lat[i]],
+    });
+    markers[i].hide();
+    markers[i].show();
+    console.log("Markers create and hide");
+    // console.log(markers[i].getCoordinates());
+  }
+  const points = lon.map((x, i) => [x, lat[i]]);
+  for (let i = 0; i < 51; i++) {
+    const x = points[i][0];
+    const y = points[i][1];
+    if (getDistance(center, [x, y]) <= radius) {
+      if (lon[i] == x && lat[i] == y) {
+        console.log("Points true");
+        markers[i].show();
+      }
+    }
+  }
+};
+
+xhr.send();
+
+// Функция для вычисления расстояния между двумя точками на сфере (в метрах)

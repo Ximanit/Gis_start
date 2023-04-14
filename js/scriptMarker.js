@@ -69,6 +69,9 @@ xhr.onload = function () {
       coordinates: [lon[i], lat[i]],
     });
     markers[i].hide();
+    markers[i].on("click", (e) => {
+      alert("Marker clicked");
+    });
     console.log("Markers create and hide");
     markers[i].on("click", (e) => {
       // alert("Marker is clicked");
@@ -106,5 +109,3 @@ xhr.onload = function () {
 };
 
 xhr.send();
-
-// Функция для вычисления расстояния между двумя точками на сфере (в метрах)

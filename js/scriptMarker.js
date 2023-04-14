@@ -4,8 +4,8 @@ const center = [137.00395936927842, 50.54691620051855];
 
 const map = new mapgl.Map("container", {
   center: center,
-  zoom: 18,
-  key: "725eff52-ba5a-4258-bc02-9984efe9923a",
+  zoom: 15,
+  key: "bfd8bbca-8abf-11ea-b033-5fa57aae2de7",
   style: "c080bb6a-8134-4993-93a1-5b4d8c36a59b",
 });
 
@@ -68,46 +68,28 @@ xhr.onload = function () {
     markers[i] = new mapgl.Marker(map, {
       coordinates: [lon[i], lat[i]],
     });
-    markers[i].hide();
+    // markers[i].hide();
     console.log("Markers create and hide");
     markers[i].on("click", (e) => {
-      // // Создаем HTML-код для кнопки
-      // var buttonHtml = '<button id="myButton" id="submit" data-target="slide-out" class="sidenav-trigger" visibility="hidden" >Нажми меня</button>';
-      // // Добавляем кнопку на страницу
-      // document.body.insertAdjacentHTML("beforeend", buttonHtml);
-      // // Находим кнопку в DOM
-      // // Находим кнопку в DOM
-      // var button = document.getElementById("myButton");
+      // Создаем новый элемент button
+      const button = document.createElement("button");
+      button.setAttribute("id", "myButton");
+      button.setAttribute("data-target", "slide-out");
+      button.setAttribute("class", "sidenav-trigger");
+      // Устанавливаем текст на кнопке
+      button.textContent = "Нажми меня";
 
-      // // Добавляем обработчик события click на кнопку
-      // button.addEventListener("click", function () {
-      //   // Код для выполнения после нажатия на кнопку
-      //   alert("Кнопка нажата!");
-      // });
+      // Добавляем кнопку в DOM
+      document.body.appendChild(button);
 
-      // button.addEventListener("click", handleButtonClick);
-      // document.querySelector("#submit").onclick = function () {
-      //   var elems = document.querySelectorAll(".sidenav");
-      //   var instances = M.Sidenav.init(elems, options);
-      // }
+      // Добавляем обработчик событий на кнопку
+      button.addEventListener("click", () => {
+        console.log("Кнопка нажата");
+      });
 
+      // Имитируем нажатие на кнопку
+      button.click();
     });
-    // document.addEventListener("click", function () {
-    //   var elems = document.querySelectorAll(".sidenav");
-    //   M.Sidenav.init(elems, options);
-    // });
-
-    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-    // var collapsibleElem = document.querySelector('.collapsible');
-    // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
-
-    // Or with jQuery
-
-    // $(document).ready(function () {
-    //   $(".sidenav").sidenav();
-    // });
-
-    // console.log(markers[i].getCoordinates());
   }
   const points = lon.map((x, i) => [x, lat[i]]);
   for (let i = 0; i < 83; i++) {

@@ -41,9 +41,9 @@ function getDistance(coord1, coord2) {
   const a =
     Math.sin(deltaPhi / 2) * Math.sin(deltaPhi / 2) +
     Math.cos(phi1) *
-      Math.cos(phi2) *
-      Math.sin(deltaLambda / 2) *
-      Math.sin(deltaLambda / 2);
+    Math.cos(phi2) *
+    Math.sin(deltaLambda / 2) *
+    Math.sin(deltaLambda / 2);
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
   return R * c;
@@ -69,19 +69,33 @@ xhr.onload = function () {
       coordinates: [lon[i], lat[i]],
     });
     markers[i].hide();
-    markers[i].on("click", (e) => {
-      alert("Marker clicked");
-    });
     console.log("Markers create and hide");
     markers[i].on("click", (e) => {
-      // alert("Marker is clicked");
-      var elems = document.querySelectorAll(".sidenav");
-      var instances = M.Sidenav.init(elems, options);
+      // // Создаем HTML-код для кнопки
+      // var buttonHtml = '<button id="myButton" id="submit" data-target="slide-out" class="sidenav-trigger" visibility="hidden" >Нажми меня</button>';
+      // // Добавляем кнопку на страницу
+      // document.body.insertAdjacentHTML("beforeend", buttonHtml);
+      // // Находим кнопку в DOM
+      // // Находим кнопку в DOM
+      // var button = document.getElementById("myButton");
+
+      // // Добавляем обработчик события click на кнопку
+      // button.addEventListener("click", function () {
+      //   // Код для выполнения после нажатия на кнопку
+      //   alert("Кнопка нажата!");
+      // });
+
+      // button.addEventListener("click", handleButtonClick);
+      // document.querySelector("#submit").onclick = function () {
+      //   var elems = document.querySelectorAll(".sidenav");
+      //   var instances = M.Sidenav.init(elems, options);
+      // }
+
     });
-    document.addEventListener("click", function () {
-      var elems = document.querySelectorAll(".sidenav");
-      M.Sidenav.init(elems, options);
-    });
+    // document.addEventListener("click", function () {
+    //   var elems = document.querySelectorAll(".sidenav");
+    //   M.Sidenav.init(elems, options);
+    // });
 
     // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
     // var collapsibleElem = document.querySelector('.collapsible');
